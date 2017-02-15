@@ -1,0 +1,193 @@
+#header {
+    align-items: flex-end;
+    position: fixed;
+    background-color: #1f1815;
+    background-image: url("boot.jpg");
+    background-position: left top, left top;
+    background-repeat: repeat, no-repeat;
+    background-size: auto auto, auto 100%;
+    color: rgba(255, 255, 255, 0.5);
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 100%;
+   
+    left: 0;
+    padding: 8em 4em;
+    
+    text-align: right;
+    top: 0;
+}
+
+.image img {
+    border-radius: 0.35em;
+    display: block;
+    
+}
+ol, ul {
+    list-style: outside none none;
+}
+body {
+    background: #fff none repeat scroll 0 0;
+}
+.major h2{
+    padding-top: 15%;
+}
+.icons li{
+    display: inline;
+    list-style: none;
+}
+#row > section {
+    border-top: 2px solid #efefef;
+    margin: 4em 0 0;
+    padding: 4em 0 0;
+}
+header.major h2 {
+    font-size: 2em;
+}
+h2 {
+    font-size: 1.5em;
+    line-height: 1.5em;
+}
+ul.actions {
+    cursor: default;
+    list-style: outside none none;
+    padding-left: 0;
+}
+ul {
+    list-style: outside none disc;
+    margin: 0 0 2em;
+    padding-left: 1em;
+}
+ol, ul {
+    list-style: outside none none;
+}
+#one{
+    padding-bottom: 10%;
+}
+
+input[type="submit"], input[type="reset"], input[type="button"], .button {
+    -moz-appearance: none;
+    background-color: transparent;
+    border: 3px solid #efefef;
+    border-radius: 0.35em;
+    color: #787878 !important;
+    cursor: pointer;
+    display: inline-block;
+    font-weight: 400;
+    height: calc(2.75em + 6px);
+    line-height: 2.75em;
+    min-width: 10em;
+    padding: 0 1.5em;
+    text-align: center;
+    text-decoration: none;
+    transition: background-color 0.2s ease-in-out 0s, color 0.2s ease-in-out 0s, border-color 0.2s ease-in-out 0s;
+    white-space: nowrap;
+}
+a {
+    border-bottom: 1px dotted;
+    color: #49bf9d;
+    text-decoration: none;
+    transition: color 0.2s ease-in-out 0s, border-color 0.2s ease-in-out 0s;
+}
+.row {
+    border-bottom: 1px solid transparent;
+    box-sizing: border-box;
+}
+.row > * {
+    padding: 0 0 0 2.5em;
+}
+
+.row > * {
+    padding: 0 0 0 2.5em;
+}
+.row > * {
+    box-sizing: border-box;
+    float: left;
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+.\31 2u\$ + *, .\31 1u\$ + *, .\31 0u\$ + *, .\39 u\$ + *, .\38 u\$ + *, .\37 u\$ + *, .\36 u\$ + *, .\35 u\$ + *, .\34 u\$ + *, .\33 u\$ + *, .\32 u\$ + *, .\31 u\$ + * {
+    clear: left;
+}
+.\36 u, .\36 u\$ {
+    clear: none;
+    margin-left: 0;
+    width: 50%;
+}
+.image.thumb::after {
+    border: 3px solid rgba(255, 255, 255, 0.5);
+    border-radius: 0.35em;
+    color: #fff;
+    content: "View";
+    display: inline-block;
+    font-size: 0.8em;
+    font-weight: 400;
+    left: 50%;
+    line-height: 2.25em;
+    margin: -1.25em 0 0 -3em;
+    opacity: 0;
+    padding: 0 1.5em;
+    position: absolute;
+    text-align: center;
+    text-decoration: none;
+    top: 50%;
+    transition: opacity 0.2s ease-in-out 0s;
+    white-space: nowrap;
+}
+@media screen and (min-width: 480px) {
+    .footer {
+        display:none;
+    }
+}
+h2 {
+    font-size: 1.5em;
+    line-height: 1.5em;
+}
+h1, h2, h3, h4, h5, h6 {
+    color: #787878;
+    font-weight: 400;
+    line-height: 1em;
+    margin: 0 0 1em;
+}
+p {
+    margin: 0 0 2em;
+}
+.row::after, .row::before {
+    clear: both;
+    content: "";
+    display: block;
+    height: 0;
+}
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+.row::after, .row::before {
+    clear: both;
+    content: "";
+    display: block;
+    height: 0;
+}
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+.row {
+    margin: 0 0 -1px -2.5em;
+}
+.row {
+    margin: 0 0 -1px -2.5em;
+}
+.row {
+    border-bottom: 1px solid transparent;
+    box-sizing: border-box;
+}
+body, input, select, textarea {
+    font-size: 12pt;
+}
+body, input, select, textarea {
+    color: #a2a2a2;
+    font-family: "Source Sans Pro",Helvetica,sans-serif;
+    font-size: 16pt;
+    font-weight: 400;
+    line-height: 1.75em;
+}
